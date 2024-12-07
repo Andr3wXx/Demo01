@@ -1,6 +1,4 @@
-﻿using MyLibrary;
-
-namespace MyConsoleApp
+﻿namespace MyConsoleApp
 {
     internal class Program
     {
@@ -8,6 +6,10 @@ namespace MyConsoleApp
         {
             MessageWriter Mywriter = new MessageWriter();
             Mywriter.Write("Hello, Writer!");
+
+            FiggleWriter Fwriter = new FiggleWriter();
+            Fwriter.Write("Hello , Figgle!!   " +
+                "Milton is black");
         }
     }
 }
